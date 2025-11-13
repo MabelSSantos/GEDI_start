@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge"]
+name = "GEDI_start"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+geopandas = ">=1.1.1,<2"
+ipykernel = ">=7.1.0,<8"
+sliderule = ">=4.19.1,<5"

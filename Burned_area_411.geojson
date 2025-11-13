@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Burned_area_411",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 69, "id": 387, "transect": "0411", "field_data": "Paisagens sustentáveis", "hyperspect": "Yes", "obs": "Michael Keller", "campaign": 1.0, "criteria": "Directed", "datafile": "NP_T-0411_dn_g_n_ch1_5.laz", "elev_maxim": 37.41, "elev_mean": 6.63585, "elev_mode": -0.190794, "elev_stdde": 7.51584, "elev_varia": 56.4879, "elev_cv": 1.13261, "elev_iq": 11.8, "elev_skewn": 0.941641, "elev_kurto": 2.75031, "elev_aad": 6.41446, "elev_mad_m": 3.31, "elev_mad_1": 3.50079, "elev_l1": 6.63585, "elev_l2": 4.01995, "elev_l3": 1.24585, "elev_l4": 0.053167, "elev_l_cv": 0.605793, "elev_l_ske": 0.309917, "elev_l_kur": 0.013226, "elev_p05": 0.0, "elev_p10": 0.0, "elev_p20": 0.0, "elev_p25": 0.06, "elev_p30": 0.34, "elev_p40": 1.07, "elev_p50": 3.31, "elev_p60": 6.67, "elev_p70": 10.14, "elev_p75": 11.86, "elev_p80": 13.83, "elev_p90": 18.5, "elev_p95": 21.68, "elev_p99": 26.09, "canopy_rel": 0.23352, "elev_sqrt_": 10.0261, "elev_curt_": 12.2015, "profile_ar": 24.3785, "random": "no", "epsg": 31981.0, "eba_map": 1, "overlap": "0667", "state": "MT", "angle": 176.606499 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -55.099307695490516, -12.207386114372499 ], [ -55.093226259786107, -12.315677245315799 ], [ -55.09598007160016, -12.315826710496058 ], [ -55.102060381636448, -12.207535615185575 ], [ -55.099307695490516, -12.207386114372499 ] ] ] } }
+]
+}
