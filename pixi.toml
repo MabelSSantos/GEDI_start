@@ -1,22 +1,22 @@
 [workspace]
 channels = ["conda-forge"]
 name = "GEDI_start"
-platforms = ["win-64"]
+platforms = ["win-64", "osx-64"]
 version = "0.1.0"
 
 [tasks]
 
 [dependencies]
-geopandas = ">=1.1.1,<2"
+geopandas = ">=1.1.2,<2"
 ipykernel = ">=7.1.0,<8"
-sliderule = ">=4.20.0,<5"
+sliderule = ">=4.19.1,<5"
+numpy = ">=2.4.2,<3"
+rasterio = ">=1.5.0,<2"
+shapely = ">=2.1.2,<3"
 contextily = ">=1.7.0,<2"
-rasterio = ">=1.4.3,<2"
-gdal = ">=3.10.3,<4"
-tqdm = ">=4.67.1,<5"
-rasterstats = ">=0.20.0,<0.21"
-pip = ">=25.3,<26"
-pyproj = ">=3.7.2,<4"
-geemap = ">=0.37.1,<0.38"
-laspy = ">=2.7.0,<3"
-spyndex = ">=0.9.0,<0.10"
+
+[pypi-options]
+index-url = "https://pypi.org/simple"
+
+[pypi-dependencies]
+gedidb = ">=2025.9.24, <2026"
